@@ -49,7 +49,7 @@ public class TestBase {
 	{
 		String br="chrome";
 		
-		if(br.equalsIgnoreCase("Chrome"))
+		if(br.equalsIgnoreCase("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
